@@ -6,7 +6,7 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .search-bar input{
     display: block;
@@ -23,9 +23,69 @@ footer a{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    margin: 0;
+    padding: 20px;
+    
 }
+
 header a{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+}
+.top-right-nav{
+    position: absolute;
+    left: 1500px;
+
+}
+.top-left-nav{
+    position: absolute;
+    top: 20px;
+}
+.top-right-nav a{
+    margin:0; 
+    padding: 20px;
+}
+.top-right-nav img{
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+}
+.sign-in{
+    position: relative;
+    height: 5px;
+    width: 5px;
+    top: 5px;
+    left: 10px;
+    padding :10px;
+    color: white;
+    border: 5px solid #4285f4;
+    background-color: #4285f4;
+    border-radius: 5px;
+}
+.top-left-nav a{
+    margin:0; 
+    padding: 20px;
+}
+.bottom-right-footer{
+    position: absolute;
+    left: 1600px;
+    top: 850px;
+}
+
+.left-bottom-footer{
+    position: absolute;
+    top: 850px;
+}
+
+.buttons button{
+    position: relative;
+    left: 825px;
+    height: 34px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+
 }
