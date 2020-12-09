@@ -112,3 +112,7 @@ footer a:link{
     float: right;
     margin: 5px 10px;
 }
+
+body{
+    width: 100%;
+}
